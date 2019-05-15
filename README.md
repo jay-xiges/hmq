@@ -10,6 +10,8 @@ Download: [click here](https://github.com/fhmq/hmq/releases)
 ## RUNNING
 ```bash
 docker build -t xiges/hmq -f Dockerfile .
+ 
+  docker run -d --restart unless-stopped xiges/hmq
 ```
 
 ## Usage of hmq:
