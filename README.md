@@ -9,9 +9,7 @@ Download: [click here](https://github.com/fhmq/hmq/releases)
 
 ## RUNNING
 ```bash
-$ go get github.com/fhmq/hmq
-$ cd $GOPATH/github.com/fhmq/hmq
-$ go run main.go
+docker build -t xiges/hmq -f Dockerfile .
 ```
 
 ## Usage of hmq:
